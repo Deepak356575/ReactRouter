@@ -1,8 +1,19 @@
-# React + Vite
+# Fake Store Cart Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a ReactJS application that fetches product data from the Fake Store API and allows users to add products to a shopping cart. The cart can be viewed in a modal with options to remove items. The application implements client-side routing for seamless navigation between different views.
 
-Currently, two official plugins are available:
+## Features
+- Fetch and display products with image, title, and price
+- Add to cart functionality with duplicate alert
+- Cart modal view showing items with the option to remove
+- Responsive design using Tailwind CSS
+- Seamless page navigation using React Router
+  - Dynamic routing for product details
+  - Clean URL structure
+  - No page refreshes during navigation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack Used
+- ReactJS
+- React Router DOM for navigation
+- Tailwind CSS for styling
+- JavaScript
